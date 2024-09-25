@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            height: 400px;
+            width: 500px;
+            background-color: black;
+            animation: spinner 8s linear infinite
+            
+        }
+
+        @Keyframes spinner {
+            0% {
+                transform:translate(100px,100px)  rotate(200deg);
+                width: 30px;
+
+            }
+
+            20% {
+
+                background-color: rgb(225, 209, 209);
+               
+            }
+
+            30% {
+                background-color: rgb(72, 7, 64);
+            }
+
+            50% {
+                background-color: rgb(11, 67, 131);
+            }
+
+
+            60% {
+                background-color: rgb(51, 8, 61);
+            }
+
+
+
+
+            90% {
+                background-color: rgb(169, 74, 5);
+            }
+        }
+
+        100%[ transform:rotate(10deg);
+        width:10px;
+        ]
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="box"> <h1>ABSAR</h1>
+
+        </div>
+
+       
+</body>
+
+</html>

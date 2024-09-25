@@ -1,0 +1,24 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+
+nav{
+
+    background-color:rgb(63, 63, 211);
+    height:80px;
+}
+
+.boot h2{
+    padding-top:15px;
+    padding-left:20px;
+}
+.but{
+    display:flex;
+    justify-content:end;
+    padding-right:15px;
+    
+}

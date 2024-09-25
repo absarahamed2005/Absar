@@ -1,0 +1,239 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:rgb(6, 6, 6);
+}
+
+nav {
+
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(224, 217, 217);
+    list-style: none;
+    
+}
+nav ul {
+    display:flex; 
+    justify-content: space-between;
+    margin-right:20px;
+    list-style:none;
+}
+nav ul li{
+    margin: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    text-align:center;
+}
+
+nav ul li a:hover{
+    background-color:blue;
+}
+div{
+    display:inline-block;
+    color:rgb(3, 3, 3);
+    border-right:30px;
+  
+    
+    
+}
+div h1{
+    margin-top:40px;
+    margin-left:20px;
+}
+
+   .container{
+    margin-top: 155px;
+    margin-left:20px;
+    border-style: none;
+    background-color: rgb(160, 162, 162);
+    display:inline-block;
+    height: 450px;  
+    width: 350px; 
+    background-image: url(./logo512\ \(11\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    border-radius: 20px;
+    margin-left: 20%;
+    color:white;
+    padding:10px;
+    
+    
+}
+.container h4{
+    text-align: center;
+    color:#0984e2;
+    padding-top:15px;
+}
+.container p{
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-top:10px;
+    color:white;
+}
+
+
+
+.box1{
+    margin-top:2px;
+    margin-left:350px;
+    border-style: none;
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    border: 1px solid rgb(74, 74, 74);
+    box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+    height: 210px;  
+    width: 180px;
+    border-radius: 7px;
+    position: absolute;
+    right: 600px;
+    top: 223px;
+   
+}
+.box1 h3{
+   margin-top: 30px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.box1 p{
+    padding: 5px;
+}
+.box1 i{
+    padding-left: 80px;
+    padding-top:10px;
+    color:blue;
+    font-size:2em;
+}
+.box2{
+    margin-top:2px;
+    margin-left:350px;
+    border-style: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    border: 1px solid rgb(74, 74, 74);
+    box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+    border-radius: 7px;
+    height: 210px;  
+    width: 180px;
+    position: absolute;
+    right: 390px;
+    top: 223px;
+}
+.box2 h3{
+   margin-top: 30px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.box2 p{
+    padding: 5px;
+}
+.box2 i{
+    padding-left: 80px;
+    padding-top:10px;
+    color:blue;
+    font-size:2em;
+}
+.box3{
+    margin-top:2px;
+    margin-left:350px;
+    border-style: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(74, 74, 74);
+    box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+    display:inline-block;
+    height:210px;  
+    width:180px;
+    border-radius:7px;
+    border-style: solid;
+    position:absolute;
+    right:390px;
+    top:460px;
+}
+.box3 h3{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 15px;
+
+   
+}
+.box3 p{
+    padding: 5px;
+}
+.box3 i{
+    padding-left: 80px;
+    padding-top:10px;
+    color:blue;
+    font-size:2em;
+}
+.box4{
+margin-top:2px;
+margin-left:350px;
+border-style: none;
+background-color: #ffffff;
+color: rgb(5, 5, 5);
+display:inline-block;
+border: 1px solid rgb(74, 74, 74);
+box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+height: 210px;  
+width: 180px;
+border-radius: 7px;
+position: absolute;
+right: 600px;
+top: 460px;
+transition: all 0.5s ease;
+}   
+.box4 h3{
+   margin-top: 30px;
+   margin-bottom: 15px;
+  text-align: center;
+}
+.box4 p{
+    padding: 5px;
+}
+.box4 i{
+    padding-left: 80px;
+    padding-top:10px;
+    color:blue;
+    font-size:2em;
+}
+.box1 h5{
+    text-align: center;
+    color:#0984e2;
+}
+
+.box2 h5{
+        text-align: center;
+        color:#0984e2;
+    }
+
+.box3 h5{
+    text-align: center;
+color:#0984e2;
+}
+
+.box4 h5
+{
+    text-align: center;
+     color:#0984e2;
+    }
+    .contactus h2{
+        padding-top:50px;
+    }
+    .absi{
+        background-color: grey;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        color: white;
+        
+    }
+    .contactus{
+        color:black;
+        padding-left:30px;
+    }
