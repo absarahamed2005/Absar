@@ -1,0 +1,20 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:black;
+    color:white;
+    
+    justify-content:center;
+    align-items:center;
+    margin-left:650px;
+    margin-top:200px;
+
+    
+}
+.absi{
+    border-radius:50px;
+    border-color:aqua;
+    
+}

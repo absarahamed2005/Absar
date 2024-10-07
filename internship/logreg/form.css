@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.ten{
+    justify-content:center;
+    align-items:center;
+    padding:200px;
+    margin-top:200px;
+}
+body{
+    background-color:black;
+    color:rgb(15, 185, 241);
+}
+
+.reg{
+    justify-content:center;
+    display:grid;
+    padding: 150px;
+} 
+
+
+
+
+
+
